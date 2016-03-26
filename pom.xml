@@ -38,10 +38,6 @@
             <version>1.16.8</version>
             <scope>provided</scope>
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId>com.h2database</groupId>-->
-        <!--<artifactId>h2</artifactId>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -65,29 +61,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-
-            <!--<plugin>-->
-                <!--<groupId>org.flywaydb</groupId>-->
-                <!--<artifactId>flyway-maven-plugin</artifactId>-->
-                <!--<version>4.0</version>-->
-                <!--<configuration>-->
-                    <!--<driver>org.postgresql.Driver</driver>-->
-                    <!--<url>jdbc:postgresql://localhost:5432/migrations</url>-->
-                    <!--<user>postgres</user>-->
-                    <!--<password>12345</password>-->
-                    <!--<schemas>-->
-                        <!--<schema>public</schema>-->
-                        <!--<schema>schema1</schema>-->
-                        <!--<schema>schema2</schema>-->
-                        <!--<schema>schema3</schema>-->
-                    <!--</schemas>-->
-                    <!--<placeholders>-->
-                        <!--<keyABC>valueXYZ</keyABC>-->
-                        <!--<otherplaceholder>value123</otherplaceholder>-->
-                    <!--</placeholders>-->
-                <!--</configuration>-->
-            <!--</plugin>-->
-
 		</plugins>
 	</build>
 
