@@ -1,8 +1,7 @@
-# jpa-basic-mappings
+# FlyWay Demo
 
-Basic JPA Mappings examples
+Database Migrations and versioning made easy !
 
-* One-To-One
-* One-To-Many
-* Many-To-One
-* Many-To-Many
+* Create initial schema
+* Create a new index
+* Create a new Entity + Table
